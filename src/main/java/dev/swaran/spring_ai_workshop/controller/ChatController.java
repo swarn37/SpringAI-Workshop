@@ -37,7 +37,7 @@ public class ChatController {
      * Streaming chat endpoint that returns content as a reactive stream.
      * Use this method for real-time streaming responses, especially useful for long responses
      * where you want to display content as it's being generated rather than waiting for completion.
-     * @return Flux<String> stream of content chunks from the LLM
+     * @return Flux<String> stream of content from the LLM
      */
     @GetMapping(value = "/stream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<String> streamedChat()
