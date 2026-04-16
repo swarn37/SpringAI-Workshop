@@ -22,7 +22,7 @@ public class ChatController {
     /**
      * Simple chat endpoint that returns only the content string from the LLM response.
      * Use this method when you only need the text content and don't require metadata like tokens or model info.
-     * @return String content from the LLM response
+     * @return String content as the LLM response
      */
     @GetMapping("/chat")
     public String chat(){
