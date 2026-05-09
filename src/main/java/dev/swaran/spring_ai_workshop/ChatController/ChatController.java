@@ -1,4 +1,4 @@
-package dev.swaran.spring_ai_workshop.controller;
+package dev.swaran.spring_ai_workshop.ChatController;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.model.ChatResponse;
