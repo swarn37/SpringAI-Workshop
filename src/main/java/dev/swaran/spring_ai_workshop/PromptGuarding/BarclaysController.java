@@ -1,4 +1,4 @@
-package dev.swaran.spring_ai_workshop.BarclaysController;
+package dev.swaran.spring_ai_workshop.PromptGuarding;
 
 
 import org.springframework.ai.chat.client.ChatClient;
