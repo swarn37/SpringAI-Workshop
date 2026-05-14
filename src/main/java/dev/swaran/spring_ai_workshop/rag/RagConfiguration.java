@@ -107,8 +107,6 @@ EmbeddingModel embeddingModel() {
             // Creates a TextReader to read the models.json resource file
             TextReader textReader = new TextReader(models);
 
-            // Adds custom metadata to identify the source filename
-            textReader.getCustomMetadata().put("filename", "models.txt");
 
             // Reads and parses the documents from the resource file
             List<Document> documents = textReader.get();
